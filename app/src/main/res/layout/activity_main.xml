@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chwithkey.eyecoins.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/item_divider"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/main_income_rl"
+            style="@style/main_item_rl_style"
+            android:background="@drawable/dw_rectangle_middle_arc_purple_press">
+
+            <TextView
+                android:id="@+id/main_income_tv"
+                style="@style/main_item_tv_style"
+                android:text="收\t\t入"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                style="@style/main_item_img_style"
+                android:layout_toLeftOf="@id/main_income_tv"
+                android:layout_toStartOf="@id/main_income_tv"
+                android:background="@drawable/dw_main_income" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_cost_rl"
+            style="@style/main_item_rl_style"
+            android:background="@drawable/dw_rectangle_middle_arc_orange_press">
+
+            <TextView
+                android:id="@+id/main_cost_tv"
+                style="@style/main_item_tv_style"
+                android:text="支\t\t出"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                style="@style/main_item_img_style"
+                android:layout_toLeftOf="@id/main_cost_tv"
+                android:layout_toStartOf="@id/main_cost_tv"
+                android:background="@drawable/dw_main_cost" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_invest_rl"
+            style="@style/main_item_rl_style"
+            android:background="@drawable/dw_rectangle_middle_arc_green_press">
+
+            <TextView
+                android:id="@+id/main_invest_tv"
+                style="@style/main_item_tv_style"
+                android:text="投\t\t资"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                style="@style/main_item_img_style"
+                android:layout_toLeftOf="@id/main_invest_tv"
+                android:layout_toStartOf="@id/main_invest_tv"
+                android:background="@drawable/dw_main_invest" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/item_divider"
+            android:layout_marginTop="@dimen/item_divider"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/main_credit_rl"
+                style="@style/main_item_nested_rl_style"
+                android:background="@drawable/dw_rectangle_middle_arc_azure_press">
+
+                <TextView
+                    android:id="@+id/main_credit_tv"
+                    style="@style/main_item_tv_style"
+                    android:text="借"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    style="@style/main_item_img_style"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toLeftOf="@id/main_credit_tv"
+                    android:layout_toStartOf="@id/main_credit_tv"
+                    android:background="@drawable/dw_main_credit" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/main_debit_rl"
+                style="@style/main_item_nested_rl_style"
+                android:background="@drawable/dw_rectangle_middle_arc_navy_press">
+
+                <TextView
+                    android:id="@+id/main_debit_tv"
+                    style="@style/main_item_tv_style"
+                    android:text="还"
+                    android:textColor="@android:color/white" />
+
+                <ImageView
+                    style="@style/main_item_img_style"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_toLeftOf="@id/main_debit_tv"
+                    android:layout_toStartOf="@id/main_debit_tv"
+                    android:background="@drawable/dw_main_debit" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_discuss_rl"
+            style="@style/main_item_rl_style"
+            android:background="@drawable/dw_rectangle_middle_arc_crimson_press">
+
+            <TextView
+                android:id="@+id/main_discuss_tv"
+                style="@style/main_item_tv_style"
+                android:text="讨\t\t论"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                style="@style/main_item_img_style"
+                android:layout_toLeftOf="@id/main_discuss_tv"
+                android:layout_toStartOf="@id/main_discuss_tv"
+                android:background="@drawable/dw_main_discuss" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
