@@ -91,28 +91,28 @@ public class MainActivity extends Base_Act implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent();
+//        Intent intent = new Intent();
+//
+//        switch (v.getId()) {
+//            case R.id.main_income_rl:
+//                break;
+//
+//            case R.id.main_cost_rl:
+//                break;
+//
+//            case R.id.main_invest_rl:
+//                break;
+//
+//            case R.id.main_credit_rl:
+//                break;
+//
+//            case R.id.main_debit_rl:
+//                break;
+//
+//            case R.id.main_discuss_rl:
+//                break;
+//        }
 
-        switch (v.getId()) {
-            case R.id.main_income_rl:
-                break;
-
-            case R.id.main_cost_rl:
-                break;
-
-            case R.id.main_invest_rl:
-                break;
-
-            case R.id.main_credit_rl:
-                break;
-
-            case R.id.main_debit_rl:
-                break;
-
-            case R.id.main_discuss_rl:
-                break;
-        }
-
-        startActivity(intent);
+//        startActivity(intent);
     }
 }
