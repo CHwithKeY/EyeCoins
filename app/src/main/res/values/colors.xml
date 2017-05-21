@@ -10,18 +10,23 @@
     <color name="colorPurple">#9a5daf</color>
     <color name="colorPurpleDark">#6e427e</color>
 
-    <color name="colorOrange">#f1a603</color>
+    <color name="colorOrange">#81f1a603</color>
     <color name="colorOrangeDark">#e49d02</color>
 
-    <color name="colorGreen">#e1e72b</color>
+    <color name="colorGreen">#c5bad42a</color>
     <color name="colorGreenDark">#d2d726</color>
 
-    <color name="colorAzure">#6ec6f2</color>
+    <color name="colorAzure">#786ec6f2</color>
     <color name="colorAzureDark">#61b2da</color>
 
-    <color name="colorNavy">#3e5ea8</color>
+    <color name="colorNavy">#ce3e5ea8</color>
     <color name="colorNavyDark">#334f8e</color>
 
-    <color name="colorCrimson">#e73f94</color>
+    <color name="colorCrimson">#b9e73f94</color>
     <color name="colorCrimsonDark">#a9316e</color>
+
+    <color name="colorWhiteDark">#efefef</color>
+
+    <color name="colorWhiteTrans">#c5b7b7b7</color>
+    <color name="colorWhiteTransDark">#c58f8f8f</color>
 </resources>
